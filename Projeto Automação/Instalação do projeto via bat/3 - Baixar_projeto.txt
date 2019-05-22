@@ -1,0 +1,8 @@
+echo off
+cls
+@CHCP 1252 >NUL
+
+cd\Projeto Automação\Projeto
+git clone LINK CLONE
+pause
+exit
