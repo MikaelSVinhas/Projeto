@@ -1,7 +1,5 @@
-const jsonReports = process.cwd() + "C:/Relatórios/json";
-const Reporter = require("/Projeto Automação/Projeto/quality_assurance/support/reporter");       
+const Reporter = require("/Projeto Automacao/Projeto/Projeto Automacao/Projeto/quality_assurance/support/reporter");   
                           
-
 'use strict'
 const Data = require('./environments_parameters.json');
 const TEST_ENV = process.env.TEST_ENV || 'local'

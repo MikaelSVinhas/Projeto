@@ -1,0 +1,5 @@
+node_modules
+results.json
+package-lock.json
+quality_assurance\features\shared_libs\node_modules
+quality_assurance\features\shared_libs\package-lock.json
