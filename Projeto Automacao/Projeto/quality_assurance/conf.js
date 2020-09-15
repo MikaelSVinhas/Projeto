@@ -1,4 +1,4 @@
-const Reporter = require("/Projeto Automacao/Projeto/Projeto Automacao/Projeto/quality_assurance/support/reporter");   
+const Reporter = require("C:/Sources/Projeto/Projeto Automacao/Projeto/quality_assurance/support/reporter");   
                           
 'use strict'
 const Data = require('./environments_parameters.json');
@@ -28,6 +28,7 @@ exports.config = {
     browserName: process.env.TEST_BROWSER_NAME || "chrome",
     
     chromeOptions: {
+      binary: "C:/Program Files/Google/Chrome/Application/chrome.exe", // caso seu navegador chrome não esteja instalado no local padrão, adicionar no path o caminho correto, caso ao contrario a linha pode ser comentada.
       args: [
         //"headless",
         "--disable-gpu",
