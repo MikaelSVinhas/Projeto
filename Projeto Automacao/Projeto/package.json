@@ -26,7 +26,7 @@
   "standard": {
     "globals": []
   },
-  "author": "Marcio Aguiar",
+  "author": "Mikael Vinhas",
   "license": "MIT",
   "dependencies": {
     "babel-register": "^6.26.0",
