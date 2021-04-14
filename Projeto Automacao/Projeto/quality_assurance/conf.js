@@ -26,7 +26,7 @@ exports.config = {
   },
   capabilities: {
     browserName: process.env.TEST_BROWSER_NAME || "chrome",
-    
+    //npm run test -- --cucumberOpts.tags=@first
     chromeOptions: {
       binary: "C:/Program Files/Google/Chrome/Application/chrome.exe", // caso seu navegador chrome não esteja instalado no local padrão, adicionar no path o caminho correto, caso ao contrario a linha pode ser comentada.
       args: [
